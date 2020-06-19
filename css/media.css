@@ -1,0 +1,104 @@
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+.b_content{
+margin-top:120px;
+margin-bottom:180px;
+}
+.text1{
+font-weight:500;
+font-size:30px!!important;	
+	}
+.title_head{
+font-weight:500;
+font-size:25px;
+	}
+.schools{
+text-align: center;
+	}
+
+.event_detail,.line{
+	display:none;
+} 
+.course_img img {
+	display:none;
+
+}
+.school_img{
+	padding-top:20px;
+}
+	
+.cards{
+padding-top:20px;
+	}
+.twitt_content,.memory_content,
+.event_content,.contact_content{
+padding-top:50px;
+padding-bottom:50px;	
+}
+.con-img {
+display:none;	
+}
+.contact_content{
+	text-align:center;
+}
+}
+
+
+
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.b_content{
+margin-top:100px;
+margin-bottom:100px;
+}
+.text1{
+font-size:30px!!important;	
+	}
+
+.title_head{
+font-weight:500;
+font-size:25px;
+	}
+.event_detail{
+display:none;
+} 
+.course_img img{
+display:none;
+}
+.twitt_content,.memory_content,.event_content,.contact_content{
+padding-top:50px;
+padding-bottom:50px;	
+}
+.con-img{
+display:none;	
+}
+.contact_content{
+	text-align:center;
+}
+}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.event_detail{
+display:none;
+} 
+.course_img img{
+	display:none;
+
+}
+}
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.event_detail{
+	display:none;
+} 
+
+}
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+
+}
